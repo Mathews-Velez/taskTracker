@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5Ltzkivf8tEn5K28g3qYCh5a4P3xU0CKu62xcEpnjSOCqaJvpGhWVVN8i4iTgnEsrSrqbzj3eFoWqDTblp45hw==",
+  "dgSpecHash": "QEXiI9uQA8keY1OFi6diTECPxZCSPooUNIl5pVjNx2frDE4LUh4UVo0scV6hM1xlwNvWZyMt8UY6ntYwy3gPDw==",
   "success": true,
-  "projectFilePath": "/home/matt/Computer_Science/c#/c#.csproj",
+  "projectFilePath": "/home/ma77/c#/taskTracker/c#.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

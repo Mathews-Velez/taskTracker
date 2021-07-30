@@ -1,0 +1,16 @@
+/home/ma77/c#/taskTracker/obj/Debug/net5.0/c#.csproj.AssemblyReference.cache
+/home/ma77/c#/taskTracker/obj/Debug/net5.0/c#.GeneratedMSBuildEditorConfig.editorconfig
+/home/ma77/c#/taskTracker/obj/Debug/net5.0/c#.AssemblyInfoInputs.cache
+/home/ma77/c#/taskTracker/obj/Debug/net5.0/c#.AssemblyInfo.cs
+/home/ma77/c#/taskTracker/obj/Debug/net5.0/c#.csproj.CoreCompileInputs.cache
+/home/ma77/c#/taskTracker/bin/Debug/net5.0/c#
+/home/ma77/c#/taskTracker/bin/Debug/net5.0/c#.deps.json
+/home/ma77/c#/taskTracker/bin/Debug/net5.0/c#.runtimeconfig.json
+/home/ma77/c#/taskTracker/bin/Debug/net5.0/c#.runtimeconfig.dev.json
+/home/ma77/c#/taskTracker/bin/Debug/net5.0/c#.dll
+/home/ma77/c#/taskTracker/bin/Debug/net5.0/ref/c#.dll
+/home/ma77/c#/taskTracker/bin/Debug/net5.0/c#.pdb
+/home/ma77/c#/taskTracker/obj/Debug/net5.0/c#.dll
+/home/ma77/c#/taskTracker/obj/Debug/net5.0/ref/c#.dll
+/home/ma77/c#/taskTracker/obj/Debug/net5.0/c#.pdb
+/home/ma77/c#/taskTracker/obj/Debug/net5.0/c#.genruntimeconfig.cache

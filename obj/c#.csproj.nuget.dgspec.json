@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/matt/Computer_Science/c#/c#.csproj": {}
+    "/home/ma77/c#/taskTracker/c#.csproj": {}
   },
   "projects": {
-    "/home/matt/Computer_Science/c#/c#.csproj": {
+    "/home/ma77/c#/taskTracker/c#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matt/Computer_Science/c#/c#.csproj",
+        "projectUniqueName": "/home/ma77/c#/taskTracker/c#.csproj",
         "projectName": "c#",
-        "projectPath": "/home/matt/Computer_Science/c#/c#.csproj",
-        "packagesPath": "/home/matt/.nuget/packages/",
-        "outputPath": "/home/matt/Computer_Science/c#/obj/",
+        "projectPath": "/home/ma77/c#/taskTracker/c#.csproj",
+        "packagesPath": "/home/ma77/.nuget/packages/",
+        "outputPath": "/home/ma77/c#/taskTracker/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/matt/.nuget/NuGet/NuGet.Config"
+          "/home/ma77/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
