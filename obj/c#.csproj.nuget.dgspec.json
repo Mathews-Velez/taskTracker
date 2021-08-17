@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/ma77/c#/taskTracker/c#.csproj": {}
+    "/home/ev3ryday7ask3r/c#/taskTracker/c#.csproj": {}
   },
   "projects": {
-    "/home/ma77/c#/taskTracker/c#.csproj": {
+    "/home/ev3ryday7ask3r/c#/taskTracker/c#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ma77/c#/taskTracker/c#.csproj",
+        "projectUniqueName": "/home/ev3ryday7ask3r/c#/taskTracker/c#.csproj",
         "projectName": "c#",
-        "projectPath": "/home/ma77/c#/taskTracker/c#.csproj",
-        "packagesPath": "/home/ma77/.nuget/packages/",
-        "outputPath": "/home/ma77/c#/taskTracker/obj/",
+        "projectPath": "/home/ev3ryday7ask3r/c#/taskTracker/c#.csproj",
+        "packagesPath": "/home/ev3ryday7ask3r/.nuget/packages/",
+        "outputPath": "/home/ev3ryday7ask3r/c#/taskTracker/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ma77/.nuget/NuGet/NuGet.Config"
+          "/home/ev3ryday7ask3r/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Figgle": {
+              "target": "Package",
+              "version": "[0.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }
