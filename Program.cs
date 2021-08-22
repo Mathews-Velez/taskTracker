@@ -1,10 +1,7 @@
-﻿using System.Threading.Tasks.Dataflow;
-using System;
-using System.IO;
+﻿using System;
 using Figgle;
-using taskTracker;
-using programJobs;
-
+using taskList;
+using System.Collections.Generic;
 //checking valid user inout
 //making method loop to continously append lines to a file
 
@@ -15,20 +12,28 @@ namespace main
         static void Main(string[] args)
         {
 
-            //initialize two test taskList objs
-            TaskList ex1 = Job.makeANewTask();
+            //initialize and add two test taskList objs
+            TaskList ex1 = new TaskList("Chores");
+            TaskList ex2 = new TaskList("Chores");
+
+            //initialize list for tasklists
+            List<TaskList> todoLists = new List<TaskList>();
+
+          
+            //initialize a list to hold all the TaskList objs
+            TaskList[] taskLists = new TaskList[]{ex1};
+            Console.WriteLine(taskLists[0].getName());
+            todoLists.Add(ex2);
+            
+            
+            
+
              
             //app loop
             Boolean closeProgram = false;
-            programJobs.Job.addEmptyLines();
+            programJobs.Job.addEmptyLines(20);
 
             Console.WriteLine(FiggleFonts.Standard.Render("\n\n\nWelcome to your task tracker\n\n\n"));
-
-            //fetch the current folder of tasks files and list each one
-            string[] dirs = Directory.GetFiles("tasks");
-
-            //initialize the variable telling us which file will be used
-            int fileChoice;
 
             //ask user for their list name (if they have one)
             Console.WriteLine("Do you have a prexisting list?(y/n)\n\n");
@@ -46,7 +51,7 @@ namespace main
                 Console.WriteLine("Please select the corresponding spot for your file:\n\n\n");
 
                 //list the current tasks files
-                int spot = 0;
+                /*int spot = 0;
                 foreach(string dir in dirs){
                     string fileName = Path.GetFileName(dir);
                     Console.WriteLine(spot+". "+fileName);
@@ -55,9 +60,9 @@ namespace main
                 
                 //ask user to select which file is theirs
                 programJobs.Job.addEmptyLines(3);
-                fileChoice = Convert.ToInt32(Console.ReadLine());
+                int fileChoice = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine(dirs[fileChoice]+" has been selected\n\n\n");
-
+                */
                 
             }else if(usersChoice == 'n'){
                 Console.WriteLine("What would you like to name your new list?");

@@ -1,7 +1,7 @@
 using System.Globalization;
 using programJobs;
 
-namespace taskTracker
+namespace taskList
 {
     public class TaskList
     {
@@ -15,16 +15,18 @@ namespace taskTracker
         }
 
         //get methods 
-        public static Task[] getTasks(){
+        public Task[] getTasks(){
             return this.tasks;
         }
-        public static string getName(){
+        public string getName(){
             return this.name;
         }
 
-        //add a new task to the task list 
-        public static void addTaskToList(){
-            
-        }
+        /*add a new task to the task list 
+        public void addTaskToList(){
+            Task task =Job.makeANewTask();
+            this.tasks.Add(task);
+
+        }*/
     }
 }
