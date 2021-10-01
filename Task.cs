@@ -28,6 +28,6 @@
 
         //toString override
         public override string ToString(){
-            return "Task: " + this.litTask + "  |" + urgency+"| |"+timeCost+"|";
+            return " " + this.litTask + "  |" + urgency+"| |"+timeCost+"|";
     }
 }

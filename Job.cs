@@ -1,7 +1,11 @@
 using System;
- 
+using taskList;
+using System.Collections.Generic;
+
 namespace programJobs{
     class Job{
+	//rename this file utils
+	
         //add multiple empty lines
         public static void addEmptyLines(int amount=100){
             for (int i = 0; i < amount; i++){
@@ -11,7 +15,7 @@ namespace programJobs{
         }
 
         //ask user for all of the required input for a task obj
-        public static Task makeANewTask(){
+        public static Task newTask(){
             Console.WriteLine("what is your task?\n");
             string litTask=Console.ReadLine();
             Console.WriteLine("What is the urgeny of this task?");
@@ -22,7 +26,15 @@ namespace programJobs{
             Task obj = new Task(litTask,urgency,timeCost);
             return obj;
         }
-        
-               
+
+	public static void printTasklist(List<TaskList> objList){
+		if (objList.Count == 0){
+			Console.WriteLine("You have no task lists available.");
+		}else{
+			foreach(TaskList obj in objList){
+				Console.WriteLine(obj);
+			} 
+		}
+	}
     }
 }
