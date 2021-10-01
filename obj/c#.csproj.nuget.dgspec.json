@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/ev3ryday7ask3r/c#/taskTracker/c#.csproj": {}
+    "/home/matt/Computer_Science/c#/taskTracker/c#.csproj": {}
   },
   "projects": {
-    "/home/ev3ryday7ask3r/c#/taskTracker/c#.csproj": {
+    "/home/matt/Computer_Science/c#/taskTracker/c#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ev3ryday7ask3r/c#/taskTracker/c#.csproj",
+        "projectUniqueName": "/home/matt/Computer_Science/c#/taskTracker/c#.csproj",
         "projectName": "c#",
-        "projectPath": "/home/ev3ryday7ask3r/c#/taskTracker/c#.csproj",
-        "packagesPath": "/home/ev3ryday7ask3r/.nuget/packages/",
-        "outputPath": "/home/ev3ryday7ask3r/c#/taskTracker/obj/",
+        "projectPath": "/home/matt/Computer_Science/c#/taskTracker/c#.csproj",
+        "packagesPath": "/home/matt/.nuget/packages/",
+        "outputPath": "/home/matt/Computer_Science/c#/taskTracker/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ev3ryday7ask3r/.nuget/NuGet/NuGet.Config"
+          "/home/matt/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

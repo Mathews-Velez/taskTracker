@@ -35,6 +35,14 @@ namespace programJobs{
 				Console.WriteLine(obj);
 			} 
 		}
-	}
+	  }
+
+    public static Char inputValidator(char input){
+        while (input != 'y'||input != 'n'){
+                Console.WriteLine("Error, please enter a valid input");
+                input = Console.ReadLine()[0];
+            }
+        return input;
     }
+   }
 }
